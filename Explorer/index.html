@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeChain Explorer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="head-section" id="head-section">
+        <div class="search-section">
+            <div>
+                <h1>BeChain Explorer</h1>
+            </div>
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Public address ">
+                <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+            </div>
+        </div>
+        <div class="add-section">
+
+        </div>
+    </div>
+    <div class="information-section">
+        <div class="price-section">
+            <h2>
+                BeChain Price
+            </h2>
+            <div class="price-sub">
+                <div class="bechain-icon">
+                    <img src="./assets/icon.png"></img>
+                </div>
+                <div class="bechain-price">
+                    <h2>$0.001</h2>
+                </div>
+            </div>
+        </div>
+        <div class="total-block-section">
+            <h2>
+                Total Block Mined
+            </h2>
+            <div class="block-sub">
+                <div class="mined-icon">
+                    <img src="./assets/mined.png" alt="">
+                </div>
+                <div class="mined-block-number">
+                    <h2>17623</h2>
+                </div>
+            </div>
+        </div>
+        <div class="difficulty-section">
+            <div class="difficulty-top">
+                <div>
+                    <h2>Difficulty</h2>
+                </div>
+                <div class="difficulty-number">
+                    <h2>13</h2>
+                </div>
+            </div>
+            <div class="border-between"></div>
+            <div class="miner-reward">
+                <div>
+                    <h2>Miner Reward</h2>
+                </div>
+                <div class="reward-number">
+                    <h2>50</h2>
+                    <p>Be</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="block-detailed-section">
+        <div id="block-information">
+            <div id="block-header">
+                <div id="block-number">
+                    <h3 id="block-number-of-selected">#1932</h3>
+                </div>
+                <div id="block-text">
+                    <div id="block-hash-section">
+                        <div id="current">
+                            <div id="text-hash">
+                                <h3>Hash</h3>
+                            </div>
+                            <div>
+                                <h3 id="hash-of-this-block">06f2ea3a1f8089cfb6a4ef7fe9d4c7ca9d0d7f3bce66e407ee229e4fb41a4b0d</h3>
+                            </div>
+                        </div>
+                        <div id="previous">
+                            <div id="previous-text-hash">
+                                <h3>Previous Hash</h3>
+                            </div>
+                            <div>
+                                <h3 id="hash-of-previous-block">04c78e1c27fecc2c3c44e9dba7aa561cab4bfb0af51ffeeec5b10e7e4c2d85d8</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="exit-detailed-screen" onclick="closeTransaction()">
+                    <img src="./assets/exit.png" alt="">
+                </div>
+            </div>
+
+            <div id="transactions-detailed">
+                <div class="transactions-detailed-scroll" id="style-2">
+                    <ul id="detailed-transaction-block">
+                        <li>
+                            <div id="block-number-box">
+                                <h3>1</h3>
+                            </div>
+                            <div id="block-transaction">
+                                <div>
+                                    <h2>d77354a0-c381-11ec-973d-a7de0b102038 </h2>
+                                </div>
+                                <div id="transaction-from">
+                                    <div id="transaction-from-tex">
+                                        <h3>from</h3>
+                                    </div>
+                                    <div id="from-address">
+                                        <h3>049416fe955eb5cff9777e53261a6245e4b6a56733f7c365d2df311556e418c899d350270ef19840128fb2158f4c418b184175985bf9636eab02b293d46f92bf74</h3>
+                                    </div>
+                                </div>
+                                <div id="transaction-to">
+                                    <div id="transaction-from-tex">
+                                        <h3>to</h3>
+                                    </div>
+                                    <div id="to-address">
+                                        <h3>040a020066606920491e55893400606db0b57b12b15650d2fdae74d53085c558b4ade9df012ccda777bbe8d139001dbbeef3d7169d6d7ff46b175f24fd9daec204</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="block-amount-box">
+
+                                <h3>1000</h3>
+                                <h4>BeChain</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="block-number-box">
+                                <h3>1</h3>
+                            </div>
+                            <div id="block-transaction">
+                                <div>
+                                    <h2>d77354a0-c381-11ec-973d-a7de0b102038 </h2>
+                                </div>
+                                <div id="transaction-from">
+                                    <div id="transaction-from-tex">
+                                        <h3>from</h3>
+                                    </div>
+                                    <div id="from-address">
+                                        <h3>049416fe955eb5cff9777e53261a6245e4b6a56733f7c365d2df311556e418c899d350270ef19840128fb2158f4c418b184175985bf9636eab02b293d46f92bf74</h3>
+                                    </div>
+                                </div>
+                                <div id="transaction-to">
+                                    <div id="transaction-from-tex">
+                                        <h3>to</h3>
+                                    </div>
+                                    <div id="to-address">
+                                        <h3>040a020066606920491e55893400606db0b57b12b15650d2fdae74d53085c558b4ade9df012ccda777bbe8d139001dbbeef3d7169d6d7ff46b175f24fd9daec204</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="block-amount-box">
+
+                                <h3>1000</h3>
+                                <h4>BeChain</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="transaction-section">
+        <div class="all-blocks">
+            <div class="head-of-block">
+                <h2>Latest Blocks</h2>
+            </div>
+            <div class="latest-blocks" id="style-2">
+                <ul id="blocks">
+                    <li onclick="openTransaction()">
+                        <div id="box">
+                            <img src="./assets/chain.png" alt="">
+                        </div>
+                        <div id="general-info">
+                            <div>
+                                <h3>1765485</h3>
+                            </div>
+                            <div>
+                                <h4>15 sec ago</h4>
+                            </div>
+                        </div>
+                        <div id="hash">
+                            <div id="current-hash">
+                                <div id="current-text">
+                                    <h3>Block Hash</h3>
+                                </div>
+                                <div id="current-hash-value">
+                                    <h3>0000000232334324324324324324323232</h3>
+                                </div>
+                            </div>
+                            <div id="previous-hash">
+                                <div>
+                                    <h4>Previous Hash</h4>
+                                </div>
+                                <div>
+                                    <h4>000000023233432432432432432432</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="transaction-count">
+
+                            <h3>4 transaction</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="transaction-pool">
+            <div class="head-of-block">
+                <h2>Transaction Pool</h2>
+            </div>
+            <div class="latest-blocks" id="style-2">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function padTo2Digits(num) {
+        return num.toString().padStart(2, '0');
+    }
+
+    function convertMsToTime(milliseconds) {
+        let seconds = Math.floor(milliseconds / 1000);
+        let minutes = Math.floor(seconds / 60);
+        let hours = Math.floor(minutes / 60);
+
+        seconds = seconds % 60;
+        minutes = minutes % 60;
+
+        hours = hours % 24;
+
+        return `${padTo2Digits(hours)}:${padTo2Digits(minutes)}:${padTo2Digits(
+    seconds,
+)}`;
+    }
+
+    const ul = document.getElementById('blocks');
+    const list = document.createDocumentFragment();
+    const url = 'http://localhost:3000/api/lastest-blocks';
+
+    fetch(url)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            let blocks = data;
+
+            blocks.map(function(block) {
+                let li = document.createElement('li');
+                li.setAttribute('onclick','openTransaction(block.data);');
+                li.onclick = function(){openTransaction(block);}
+                let box = document.createElement('div');
+                box.setAttribute('id', 'box');
+                let chain_image = document.createElement('img');
+                chain_image.setAttribute('src', './assets/chain.png');
+                box.appendChild(chain_image);
+                li.appendChild(box)
+
+                let info = document.createElement('div');
+                info.setAttribute('id', 'general-info');
+                let div1 = document.createElement('div');
+                let hash_number = document.createElement('h3');
+                hash_number.textContent = block.timestamp
+                let div2 = document.createElement('div')
+                let time = document.createElement('h4');
+                let milliseconds = block.timestamp
+                let current_time = Date.now()
+                console.log(current_time)
+                subtract = (new Date() - new Date(milliseconds));
+                let time_reduce = (current_time - milliseconds)
+                time.textContent = convertMsToTime(time_reduce) + "   ago"
+
+                div1.appendChild(hash_number)
+                div2.appendChild(time)
+                info.appendChild(div1)
+                info.appendChild(div2)
+                li.appendChild(info)
+
+                let hash = document.createElement('div')
+                hash.setAttribute('id', 'hash')
+                let current_hash = document.createElement('div')
+                current_hash.setAttribute('id', 'current-hash')
+                let current_text = document.createElement('div')
+                current_text.setAttribute('id', 'current-text')
+                let current_text_value = document.createElement('h3')
+                current_text_value.textContent = "Block Hash"
+                let current_value_section = document.createElement('div')
+                current_value_section.setAttribute('id', 'current-hash-value')
+                let current_value = document.createElement('h3')
+                current_value.textContent = block.hash.slice(0, 10) + "....." + block.hash.slice(50, 63)
+
+                current_value_section.appendChild(current_value)
+                current_text.appendChild(current_text_value)
+                current_text.appendChild(current_value_section)
+                current_hash.appendChild(current_text)
+                hash.appendChild(current_hash)
+
+                let previous_hash = document.createElement('div')
+                previous_hash.setAttribute('id', 'previous-hash')
+                let previous_text_value = document.createElement('h4')
+                previous_text_value.textContent = "Previous Block"
+                let previous_value = document.createElement('h4')
+                previous_value.textContent = block.lastHash.slice(0, 10) + "....." + block.lastHash.slice(50, 63)
+
+                previous_hash.appendChild(previous_text_value)
+                previous_hash.appendChild(previous_value)
+                hash.appendChild(previous_hash)
+
+                li.appendChild(hash)
+
+                let transaction_count = document.createElement('div')
+                transaction_count.setAttribute('id', 'transaction-count')
+                let count_text = document.createElement('h3')
+                count_text.textContent = block.data.length + " transaction"
+                transaction_count.appendChild(count_text)
+
+                li.appendChild(transaction_count)
+
+                list.appendChild(li);
+                console.log(list)
+                console.log(block.timestamp)
+            });
+            ul.appendChild(list);
+        })
+
+    function closeTransaction() {
+        document.getElementById("block-detailed-section").style.display = "none";
+    }
+
+    function openTransaction(hashNumber) {
+        document.getElementById("block-detailed-section").style.display = "block";
+        console.log(hashNumber)
+    }
+
+    let data;
+    fetch("https://b95c-178-243-16-149.eu.ngrok.io/users/kyc/6271624ccc447705e8a52840").then(response => {
+        response.blob().then(blobResponse => {
+            data = blobResponse;
+            let a = documen.getElementById("head-section")
+            a.style.backgroundImage = data
+            console.log(data)
+        })
+    });
+</script>
+
+</html>
