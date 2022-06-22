@@ -33,7 +33,6 @@ themselves with these produced signatures.
   
 ## APIs
 
-#### Tüm öğeleri getir
 
 ```http
   GET /users
@@ -43,7 +42,6 @@ themselves with these produced signatures.
 | :------------------------- |
 | Returns all users.         |
 
-#### Öğeyi getir
 
 ```http
   GET /users/${id}
@@ -265,6 +263,10 @@ themselves with these produced signatures.
 | :-------- | :------- | :------------------------- |
 | `id`      | `String` | Delete all user data. |
 
+## Animated Photos
+
+![GIF_1](./Assets/signature.gif = 300x649)
+![GIF_1](./Assets/genrate_wallet.gif = 300x649)
 ## Mockups
 
 ![Uygulama Ekran Görüntüsü](./Assets/detailed_page.jpg)
@@ -278,10 +280,6 @@ themselves with these produced signatures.
 ![Uygulama Ekran Görüntüsü](./Assets/explorer.jpg)
 
   
-## Animated Photos
-
-![GIF_1](./Assets/signature.gif)
-![GIF_1](./Assets/genrate_wallet.gif)
 ## Developers
 
 - [@ErencanErel](https://github.com/erenJan) thanks for front-end.
