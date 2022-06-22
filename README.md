@@ -265,8 +265,8 @@ themselves with these produced signatures.
 
 ## Animated Photos
 
-![GIF_1](./Assets/signature.gif=300x649)
-![GIF_1](./Assets/genrate_wallet.gif=300x649)
+![GIF_1](./Assets/signature.gif)
+![GIF_1](./Assets/genrate_wallet.gif)
 ## Mockups
 
 ![Uygulama Ekran Görüntüsü](./Assets/detailed_page.jpg)
